@@ -112,7 +112,7 @@
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &kp LALT  &kp LEFT_SHIFT  &kp LCTRL  &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans    &trans          &trans     &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans    &trans          &trans     &trans
-                        &trans  &trans  &trans    &trans  &trans
+                        &trans  &trans  &trans    &mo 3   &trans
                                 &trans  &trans    &trans
             >;
         };
