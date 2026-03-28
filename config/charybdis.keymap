@@ -96,11 +96,11 @@
 
         RAISE {
             bindings = <
-&trans     &trans  &trans          &trans          &trans           &trans    &trans             &trans          &trans          &trans           &trans    &trans
-&kp TILDE  &trans  &kp PG_DN       &kp UP_ARROW    &kp PAGE_DOWN    &kp HOME          &kp BSLH   &kp PG_UP       &kp UP_ARROW    &kp PG_DN        &kp HOME  &trans
-&trans     &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp END           &kp MINUS  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp END   &trans
-&trans     &trans  &trans          &trans          &trans           &trans            &kp EQUAL  &trans          &trans          &trans           &trans    &tog 4
-           &mo 3   &trans          &trans          &trans           &trans    &trans             &kp LGUI                        &kp QUESTION
+&trans     &trans  &trans            &trans          &trans           &trans    &trans             &trans          &trans          &trans           &trans    &trans
+&kp TILDE  &trans  &kp PG_DN         &kp UP_ARROW    &kp PAGE_DOWN    &kp HOME          &kp BSLH   &kp PG_UP       &kp UP_ARROW    &kp PG_DN        &kp HOME  &trans
+&trans     &trans  &kp LEFT_ARROW    &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp END           &kp MINUS  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp END   &trans
+&trans     &trans  &trans            &trans          &trans           &trans            &kp EQUAL  &trans          &trans          &trans           &trans    &tog 4
+           &trans  &kp LEFT_COMMAND  &mo 3           &trans           &trans    &trans             &trans                          &kp QUESTION
             >;
         };
 
@@ -110,7 +110,7 @@
 &trans  &trans  &trans  &trans  &trans  &trans          &trans  &trans  &kp LALT  &kp LEFT_SHIFT  &kp LCTRL  &trans
 &trans  &trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans    &trans          &trans     &trans
 &trans  &trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans    &trans          &trans     &trans
-        &trans  &trans  &trans  &mo 3   &trans  &trans          &trans            &trans
+        &trans  &trans  &trans  &trans  &trans  &trans          &trans            &trans
             >;
         };
 
@@ -126,21 +126,21 @@
 
         gaming {
             bindings = <
-&kp ESCAPE        &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp N5   &kp NUMBER_6           &kp N7     &kp N8     &kp N9     &kp N0         &kp BACKSPACE
-&kp TAB           &kp T         &kp Q         &kp W         &kp E         &kp R                    &kp Y  &kp U      &kp I      &kp O      &kp P          &tog 4
-&kp LEFT_BRACKET  &kp G         &kp A         &kp S         &kp D         &kp F                    &kp H  &kp J      &kp K      &kp L      &kp SEMICOLON  &tog 4
-&trans            &kp B         &kp Z         &kp X         &kp C         &kp V                    &kp N  &kp M      &kp COMMA  &kp DOT    &kp SLASH      &tog 4
-                  &kp LCTRL     &kp LEFT_ALT  &kp K_MUTE    &kp CAPSLOCK  &kp DEL  &kp LEFT_SHIFT         &kp SPACE             &kp ENTER
+&kp ESCAPE        &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp N5          &kp NUMBER_6         &kp N7   &kp N8     &kp N9     &kp N0         &kp BACKSPACE
+&kp TAB           &kp T         &kp Q         &kp W         &kp E         &kp R                         &kp Y  &kp U    &kp I      &kp O      &kp P          &tog 4
+&kp LEFT_BRACKET  &kp G         &kp A         &kp S         &kp D         &kp F                         &kp H  &kp J    &kp K      &kp L      &kp SEMICOLON  &tog 4
+&none             &kp B         &kp Z         &kp X         &kp C         &kp V                         &kp N  &kp M    &kp COMMA  &kp DOT    &kp SLASH      &tog 4
+                  &kp K_MUTE    &kp SPACE     &kp LCTRL     &kp LEFT_ALT  &kp LEFT_SHIFT  &kp CAPSLOCK         &kp DEL             &kp ENTER
             >;
         };
 
         AUTO-MOUSE {
             bindings = <
-&trans  &trans     &trans  &trans     &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans
-&trans  &trans     &trans  &trans     &trans  &trans          &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans     &trans  &trans     &trans  &trans          &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans     &trans  &trans     &trans  &trans          &trans  &trans  &trans  &trans  &trans  &trans
-        &mkp LCLK  &trans  &mkp RCLK  &trans  &trans  &trans          &trans          &trans
+&trans  &trans     &trans  &trans     &trans     &trans  &trans          &trans  &trans  &trans  &trans  &trans
+&trans  &trans     &trans  &trans     &trans     &trans          &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans     &trans  &trans     &trans     &trans          &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans     &trans  &trans     &trans     &trans          &trans  &trans  &trans  &trans  &trans  &trans
+        &mkp RCLK  &trans  &mkp LCLK  &mkp MCLK  &trans  &trans          &trans          &trans
             >;
         };
 
